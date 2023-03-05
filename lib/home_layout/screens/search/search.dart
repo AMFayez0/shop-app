@@ -192,10 +192,10 @@ class Search extends StatelessWidget {
                             HomeCubit.get(context).changeFavorites(model.id!);
                           },
                           icon: CircleAvatar(
-                            backgroundColor:
-                                HomeCubit.get(context).favorites[model.id]
-                                    ? Colors.blue
-                                    : Colors.grey,
+                           // backgroundColor:
+                                // HomeCubit.get(context).favorites[model.id]
+                                //     ? Colors.blue
+                                //     : Colors.grey,
                             radius: 15.0,
                             child: Icon(
                               Icons.favorite_border,

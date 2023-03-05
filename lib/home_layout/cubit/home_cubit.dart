@@ -86,7 +86,7 @@ class HomeCubit extends Cubit<HomeState> {
   ChangeFavoritesModel? changeFavoritesModel;
 
   void changeFavorites(int productId) {
-    favorites[productId] = !favorites[productId];
+    favorites[productId] = favorites[productId];
     emit(SuccessAddRemoveFavState());
     DioHelper.postData(
       url: FAVORITES,
