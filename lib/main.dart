@@ -136,6 +136,7 @@ class MyApp extends StatelessWidget {
               ),
               iconTheme: IconThemeData(color: Colors.blue),
             ),
+           
             debugShowCheckedModeBanner: false,
             themeMode:
                 AppCubit.get(context).isdark ? ThemeMode.dark : ThemeMode.light,

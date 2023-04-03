@@ -13,7 +13,7 @@ class AppCubit extends Cubit<AppState> {
   AppCubit() : super(AppInitial());
   static AppCubit get(context) => BlocProvider.of(context);
  
-  bool isdark = false;
+  bool isdark = true;
 
   void changeMode({bool? fromShared}) {
     if (fromShared != null) {
